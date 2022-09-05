@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Linguaguem da página -->
+<head>
+    <meta charset="UTF-8"> <!-- Serve para que os navegadores saibam como devem renderizar os textos incluídos em uma página específica -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica Html</title>
+</head>
+<body> <!-- Corpo da página -->
+
+    <header> <!-- Cabeçalho -->
+
+        <hgroup> <!-- Grupo de Cabeçalhos -->
+            <h1>Tags e Semântica HTML</h1>
+            <h2>Subtitulo</h2>
+        </hgroup>
+        <nav>Links de navegação (menu)</nav>
+
+    </header>
+
+    <main> <!-- Conteúdo principal da página, não se repete em outras páginas como o menu, por exemplo -->
+
+        <section>
+            <article>Um conteúdo independente, caixa de conteúdo ("principal")</article>
+            <aside>Conteúdo independente "segundário" (bloco relacionado ao article</aside>
+            <section>Sessão dentro do documento (subconteúdos)</section>
+           <figure>
+                <img src="assets/principaisTags.png" width= "370" height= "250" alt="principaisTags">
+           </figure>
+        </section>
+
+        <article> <!-- Artigo -->
+            <header>
+                <h1>Exemplo de semântica</h1>
+            </header>
+            <section>
+            <h3>Divs</h3>
+            <pre>    "O elemento de divisão HTML 'div' é um container genérico para conteúdo de fluxo, que de certa forma não representa nada." 
+            Quando usar?
+            "Ele deve ser utilizado somente quando não tiver outro elemento de semaântica
+            (tal como 'article', 'nav' e outros)'".
+            </pre> <!-- Texto pré-formatado. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. -->
+            </section>
+            <section>
+            <p> <!-- Sem formatação -->
+                <h4>Span</h4>
+                O elemento HTML 'span' é um container inline genérico para conteúdo de fraseado, que não representa nada inerentemente. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id) ou porque eles compartilham valores de atributos, como lang. Deve ser usado somente quando nenhum outro elemento semântico for apropriado. 'Span' é muito parecido com um elemento 'div', mas 'div' é um elemento de nível de bloco enquanto um 'span' é um elemento embutido.
+            </p>
+            </section>
+            <aside>Descrição do artigo</aside>
+            <footer>
+                <p>Rodapé do artigo</p>
+            </footer>
+        </article>
+
+        <section>
+            <h5>Tagas HTML</h5>
+            <h6>Quase todas:</h6>
+            <img src="assets/tagsHTML.png" alt="tagsHTML">
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; Estudos HTML
+        <address>Contatos</address>
+    </footer> <!-- Rodapé -->
+</body>
+</html>
